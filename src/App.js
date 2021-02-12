@@ -1,5 +1,6 @@
 
 import './_App.scss';
+import './main.scss';
 
 
 function App() {
