@@ -19,23 +19,29 @@ class Header extends Component {
 
 
     handleClick(){
-        let header = document.querySelector('.header')
+        let toToggle = document.querySelectorAll('.toToggle')
         
         this.setState(state => ({
             isToggleOn: !state.isToggleOn
         }))
         
-        this.state.isToggleOn == false ? header.classList.add('open') : 
-        header.classList.remove('open')
+        toToggle.forEach(el => {
+            if ( this.state.isToggleOn == false){
+                el.classList.add('open')
+            } else {
+                el.classList.remove('open')
+            }
+
+        })
+       
 
     }
 
 
     render(){
 
-
         return (
-            <header className="header">
+            <header className="header toToggle">
                 <nav className="header__nav container">
                     <a className="header__toggle" href="#" onClick={this.handleClick}>
                         <span></span>
@@ -49,6 +55,12 @@ class Header extends Component {
                         <a href="#">Contact</a>
                     </div>
                 </nav>
+                <div className="header__overlay container toToggle">
+                    <a href="#">Kathlia Carlos</a>
+                    <a href="#">About Me</a>
+                    <a href="#">Works</a>
+                    <a href="#">Contact</a>
+                </div>
             </header>
         )
     }

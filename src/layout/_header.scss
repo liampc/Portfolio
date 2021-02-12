@@ -10,12 +10,20 @@
 
     &__nav {
        
+        a {
+            color: $White;
+            font-weight: $font-reg;
+
+            &:hover {
+                color: $Orange;
+                
+            }
+        }
     }
 
 
     &__toggle {
 
-         margin-top: 1rem;
 
         span {
             display: block;
@@ -58,6 +66,50 @@
             
         }   
 
+    }
+
+    &__overlay {
+
+
+        &.open {
+            display: flex;
+        }
+
+        display: none;
+        position: absolute;
+        min-width: calc(100% - 3.75rem);
+        // min-width: 100%;
+        left: 50%;
+        margin-top: 3.125rem;
+        transform: translateX(-50%);
+        background-color: $Orange;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: ;
+        text-align: center;
+        border-radius: 4px;
+      
+        a {
+            color: black;
+            font-weight: $font-reg;
+
+            &:hover {
+                color: $DarkBlue;
+                
+            }
+        }
+
+        & > * {
+            padding: 1.5rem 1rem;
+
+            &:hover {
+                border-bottom: 2px solid $DarkBlue;
+            }
+        }
+        
+        @include breakpoint-up('large'){
+            display: none;
+        }
     }
    
 }
