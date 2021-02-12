@@ -10,9 +10,12 @@ class Header extends Component {
     render(){
 
         return (
-            <header>
-                <a href="#">Kathlia Carlos</a>
-                <p>Kathlia Carlos</p>
+            <header className="header container">
+                <a className="header__toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </header>
         )
     }

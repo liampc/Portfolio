@@ -1,7 +1,24 @@
 @import '../main.scss';
 
 
-header {
+.header {
    
+    background-color: $DarkBlue;
+    min-height: 5rem;;
 
+    &__toggle {
+
+        max-width: 2.5rem;
+
+        span {
+            display: block;
+            width: 2.5rem;
+            height: 3px;
+            margin-bottom: 7px;
+            background-color: $White;
+        }
+
+       
+    }
+   
 }
