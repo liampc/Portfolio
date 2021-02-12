@@ -10,7 +10,7 @@ class Header extends Component {
     render(){
 
         return (
-            <header className="header container">
+            <header className="header container open">
                 <a className="header__toggle">
                     <span></span>
                     <span></span>
