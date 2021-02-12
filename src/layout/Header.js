@@ -35,12 +35,20 @@ class Header extends Component {
 
 
         return (
-            <header className="header container ">
-                <a className="header__toggle" onClick={this.handleClick}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
+            <header className="header">
+                <nav className="header__nav container">
+                    <a className="header__toggle" href="#" onClick={this.handleClick}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <div className="header__links">
+                        <a href="#">Kathlia Carlos</a>
+                        <a href="#">About Me</a>
+                        <a href="#">Works</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </nav>
             </header>
         )
     }

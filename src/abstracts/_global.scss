@@ -18,8 +18,29 @@ body {
 }
 
 .container {
+    max-width: 70rem;
     margin: 0 auto;
     padding: 1.875rem;
 }
+
+
+//links 
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    
+}
+
+
+a {
+    color: $White;
+
+    &:hover {
+        color: $Orange;
+    }
+}
+
+
+
 
 
