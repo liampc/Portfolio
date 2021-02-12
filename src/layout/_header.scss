@@ -2,9 +2,6 @@
 
 
 header {
-    color: $random;
+   
 
-    @include breakpoint-up('large'){
-        color: blue;
-    }
 }

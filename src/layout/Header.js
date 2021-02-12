@@ -12,6 +12,7 @@ class Header extends Component {
         return (
             <header>
                 <a href="#">Kathlia Carlos</a>
+                <p>Kathlia Carlos</p>
             </header>
         )
     }
