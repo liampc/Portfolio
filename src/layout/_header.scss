@@ -73,21 +73,24 @@
 
         &.open {
             display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include breakpoint-up('large'){
+                display: none;
+            }
         }
 
         display: none;
         position: absolute;
         min-width: calc(100% - 3.75rem);
-        // min-width: 100%;
         left: 50%;
         margin-top: 3.125rem;
         transform: translateX(-50%);
-        background-color: $Orange;
-        flex-direction: column;
-        justify-content: center;
-        // align-items: ;
-        text-align: center;
         border-radius: 4px;
+        background-color: $Orange;
+        text-align: center;
+
       
         a {
             color: black;
@@ -107,9 +110,7 @@
             }
         }
         
-        @include breakpoint-up('large'){
-            display: none;
-        }
+       
     }
    
 }
