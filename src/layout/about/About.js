@@ -11,7 +11,7 @@ class About extends Component {
         return (
             <section className="about">
                 <div className="about__container container">
-                   <Subheader title={'About'} />
+                <Subheader title={'About Me'} />
                 </div>
             </section>
         )
