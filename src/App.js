@@ -2,7 +2,7 @@
 import './_App.scss';
 import './main.scss';
 
-import Header from './layout/Header';
+import Header from './layout/header/Header';
 
 function App() {
   return (
