@@ -2,13 +2,18 @@
 
 
 .home {
-
     background-color: $DarkBlue;
-    min-height: 15rem;
 
-    @include breakpoint-up('large'){
-        display: flex;
-        min-height: 43rem;
+    &__container {
+
+        background-color: $DarkBlue;
+        min-height: 15rem;
+
+        @include breakpoint-up('large'){
+            display: flex;
+            min-height: 43rem;
+        }
+
     }
 
     &__title {
@@ -79,3 +84,4 @@
 
     }
 }
+
