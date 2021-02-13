@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
-
+@import './mixins';
 // Colors 
 
 $DarkBlue: #383E56;
@@ -15,3 +15,14 @@ $font: 'Poppins', sans-serif;
 $font-light: 200;
 $font-reg: 400;
 $font-bold: 700;
+
+
+h1, h2 {
+    margin: 0;
+    // font-weight: $font-reg;
+
+    @include breakpoint-up('large'){
+        font-weight: $font-light;
+    }
+
+}

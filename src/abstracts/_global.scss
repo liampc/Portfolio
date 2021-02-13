@@ -31,8 +31,13 @@ a, a:visited, a:hover {
     
 }
 
+h1, h2 {
+    margin: 0;
+    font-weight: $font-reg;
 
+    @include breakpoint-up('large'){
+        font-weight: $font-light;
+    }
 
-
-
+}
 

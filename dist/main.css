@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+h1, h2 {
+  margin: 0;
+}
+
+@media (min-width: 64em) {
+  h1, h2 {
+    font-weight: 200;
+  }
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -26,5 +36,16 @@ body {
 
 a, a:visited, a:hover {
   text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
+@media (min-width: 64em) {
+  h1, h2 {
+    font-weight: 200;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,9 +6,12 @@ class Home extends Component {
 
     render(){
         return (
-            <section>
-                <h1>Kathlia Carlos</h1>
-                <h2>Frontend developer</h2>
+            <section className="home">
+                <div className="home__title container">
+                    <h1>Kathlia Carlos</h1>
+                    <p>Front-end developer</p>
+                </div>
+                <div className="home__image"></div>
             </section>
         )
     }
