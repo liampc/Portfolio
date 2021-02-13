@@ -4,6 +4,7 @@
 .home {
 
     background-color: $DarkBlue;
+    min-height: 15rem;
 
     &__title {
         color: $White;
@@ -30,6 +31,16 @@
     }
 
     &__image {
+        position: absolute;
+        background-image: url('../../assets/images/IMG_20201114_153520.jpg');
+        width: 223px;
+        height: 213px;
+        margin-top: -1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: 100%;
+        background-position: 50% 50%;
+        border: 8px solid #D4B5B0;
 
     }
 }
