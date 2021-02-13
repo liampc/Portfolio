@@ -16,6 +16,10 @@ body {
     line-height: 1.3;
     min-height: 100vh;
     overflow-x: hidden;
+
+    &.open {
+        overflow-y: hidden;
+    }
 }
 
 .container {

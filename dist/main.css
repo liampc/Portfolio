@@ -29,6 +29,10 @@ body {
   overflow-x: hidden;
 }
 
+body.open {
+  overflow-y: hidden;
+}
+
 .container {
   max-width: 70rem;
   margin: 0 auto;

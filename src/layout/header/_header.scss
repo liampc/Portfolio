@@ -61,7 +61,7 @@
         @include breakpoint-up('large'){
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: space-between;
             
             
         }   
@@ -69,17 +69,6 @@
     }
 
     &__overlay {
-
-
-        &.open {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            @include breakpoint-up('large'){
-                display: none;
-            }
-        }
 
         display: none;
         position: absolute;
@@ -90,6 +79,7 @@
         border-radius: 4px;
         background-color: $Orange;
         text-align: center;
+        z-index: 1;
 
       
         a {
@@ -107,6 +97,16 @@
 
             &:hover {
                 border-bottom: 2px solid $DarkBlue;
+            }
+        }
+
+        &.open {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include breakpoint-up('large'){
+                display: none;
             }
         }
         
