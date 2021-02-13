@@ -1,14 +1,18 @@
 import React, {Component} from 'react'
-
 import './_about.scss'
 
+import Subheader from '../../components/Subheader'
+
 class About extends Component {
+
 
 
     render(){
         return (
             <section className="about">
-                Hello About
+                <div className="about__container container">
+                   <Subheader title={'About'} />
+                </div>
             </section>
         )
     }
