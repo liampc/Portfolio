@@ -2,6 +2,13 @@ import React, {Component} from 'react'
 import './_about.scss'
 
 import Subheader from '../../components/Subheader'
+import Logo from '../../components/Logo'
+
+import html from '../../assets/images/html.png'
+import css from '../../assets/images/Css_icon.png'
+import js from '../../assets/images/js_logo.png'
+import reactLogo from '../../assets/images/react_icon.png'
+
 
 class About extends Component {
 
@@ -16,8 +23,11 @@ class About extends Component {
                         <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
                         <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
                     </div>
-                    <div>
-                        <span>CSS</span>
+                    <div className="about__logos">
+                        <Logo link={html} alt={'html-logo'} />
+                        <Logo link={css} alt={'css-logo'} />
+                        <Logo link={js} alt={'js-logo'} />
+                        <Logo link={reactLogo} alt={'react-logo'} />
                     </div>
                 </div>
             </section>
