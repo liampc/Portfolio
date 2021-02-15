@@ -16,13 +16,7 @@ $font-light: 200;
 $font-reg: 400;
 $font-bold: 700;
 
-
-h1, h2 {
-    margin: 0;
-    // font-weight: $font-reg;
-
-    @include breakpoint-up('large'){
-        font-weight: $font-light;
-    }
-
-}
+$font-body: 1rem; //16px
+$font-body-small: 0.875rem; //14px
+$font-caption: 0.75rem; // 12px
+$font-overline: 0.625rem;  //10px

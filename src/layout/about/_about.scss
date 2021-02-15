@@ -8,6 +8,7 @@
 
     &__container {
         margin-top: 3rem;
+        font-size: $font-body;
         
         @include breakpoint-up('large'){
             margin-top: 6rem;
