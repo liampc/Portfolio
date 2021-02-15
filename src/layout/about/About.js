@@ -24,10 +24,10 @@ class About extends Component {
                         <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
                     </div>
                     <div className="about__logos">
-                        <Logo link={html} alt={'html-logo'} />
-                        <Logo link={css} alt={'css-logo'} />
-                        <Logo link={js} alt={'js-logo'} />
-                        <Logo link={reactLogo} alt={'react-logo'} />
+                        <Logo link={html} alt={'html-logo'} pos={1}/>
+                        <Logo link={css} alt={'css-logo'} pos={2}/>
+                        <Logo link={js} alt={'js-logo'} pos={3}/>
+                        <Logo link={reactLogo} alt={'react-logo'} pos={4}/>
                     </div>
                 </div>
             </section>
