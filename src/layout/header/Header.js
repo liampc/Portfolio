@@ -42,7 +42,7 @@ class Header extends Component {
 
         return (
             <header className="header toToggle">
-                <nav className="header__nav container">
+                <nav className="header__nav container container-pall">
                     <a className="header__toggle" href="#" onClick={this.handleClick}>
                         <span></span>
                         <span></span>
@@ -55,7 +55,7 @@ class Header extends Component {
                         <a href="#">Contact</a>
                     </div>
                 </nav>
-                <div className="header__overlay container toToggle">
+                <div className="header__overlay container container-pall toToggle">
                     <a href="#">Kathlia Carlos</a>
                     <a href="#">About Me</a>
                     <a href="#">Works</a>

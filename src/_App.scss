@@ -27,7 +27,31 @@ body {
 .container {
     max-width: 70rem;
     margin: 0 auto;
-    padding: 1.875rem;
+   
+
+
+    &-pt {
+        padding-top: 3rem;
+    }
+
+    &-pb {
+        padding-bottom: 3rem;
+    }
+
+    &-ptb {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    &-plr {
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+
+    &-pall {
+        padding: 1.875rem;
+    }
+
 }
 
 
@@ -47,4 +71,5 @@ h1, h2 {
     }
 
 }
+
 

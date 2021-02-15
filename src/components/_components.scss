@@ -9,11 +9,11 @@
     color: $White;
     padding: 0.875rem;
     padding-left: 2rem;
+    
 
     @include breakpoint-up('large'){
         width: 50%;
         padding-left: 5rem;
-
     }
 
 }
