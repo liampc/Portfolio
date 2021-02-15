@@ -4,4 +4,16 @@
 .about {
     background-color: $LightBrown;
     margin-top: 12rem;
+
+
+    &__container {
+        margin-top: 3rem;
+        
+        @include breakpoint-up('large'){
+            margin-top: 6rem;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(561px, 1fr));
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
