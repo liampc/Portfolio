@@ -1,0 +1,14 @@
+@import '../../styles/_abstracts.scss';
+
+
+.header {
+
+    background-color: $LightGreen;
+    width: 100vw;
+    height: 50vh;
+    
+
+    @include breakpoint-up('large'){
+        height: 80vh;
+    }
+}
