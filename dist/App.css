@@ -22,6 +22,18 @@ body {
   max-width: 70rem;
 }
 
+.padding-lr {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 64em) {
+  .padding-lr {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
 h1, h2, h3 {
   margin: 0;
 }

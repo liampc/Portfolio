@@ -17,7 +17,7 @@
 
         @include breakpoint-up('large'){
             padding-top: 5rem;
-            min-height: 40vh;
+            min-height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -26,6 +26,37 @@
                 color: white;
             }
 
+        }
+    }
+
+
+    &__titles {
+        position: absolute;
+        top: 10%;
+
+        @include breakpoint-up('large'){
+            top: 50%;
+        }
+
+        h1 {
+            background-color: $LightBrown;
+            color: $Brown;
+            width: 90vw;
+
+            @include breakpoint-up('large'){
+                width: 60vw;
+            }
+        }
+
+        p {
+            background-color: $Brown;
+            color: white;
+            width: 80vw;
+            margin-top: -0.5rem;
+
+            @include breakpoint-up('large'){
+                width: 50vw;
+            }
         }
     }
 }
