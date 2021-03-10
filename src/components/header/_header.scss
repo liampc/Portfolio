@@ -11,4 +11,21 @@
     @include breakpoint-up('large'){
         height: 80vh;
     }
+
+    &__nav {
+        display: none;
+
+        @include breakpoint-up('large'){
+            padding-top: 5rem;
+            min-height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            a {
+                color: white;
+            }
+
+        }
+    }
 }

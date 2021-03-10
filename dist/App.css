@@ -17,7 +17,16 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
 h1, h2, h3 {
   margin: 0;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
 }
 /*# sourceMappingURL=App.css.map */
