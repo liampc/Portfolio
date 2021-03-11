@@ -25,6 +25,7 @@
 
             a {
                 color: white;
+
             }
 
         }
@@ -35,6 +36,7 @@
         position: absolute;
         z-index: 1;
         top: 10%;
+        
 
         @include breakpoint-up('large'){
             top: 50%;
@@ -44,9 +46,12 @@
             background-color: $LightBrown;
             color: $Brown;
             width: 90vw;
+            font-weight: 300;
+            box-shadow: 1px 1px 10px 1px #8080806e;
 
             @include breakpoint-up('large'){
                 width: 60vw;
+                font-size: 3.75rem;
             }
         }
 
@@ -55,9 +60,11 @@
             color: white;
             width: 80vw;
             margin-top: -0.5rem;
+            font-size: 1rem;
+            font-weight: 400;
 
             @include breakpoint-up('large'){
-                width: 50vw;
+                width: 55vw;
             }
         }
     }
@@ -70,13 +77,14 @@
         top: 25%;
         left: 50%;
         transform: translateX(-50%);
-        // border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px #8080806e;
+       
 
         @include breakpoint-up('large'){
-            max-width: 45vw;
+            max-width: 50vw;
             max-height: 90vh;
             top: 0%;
-            transform: translateX(-5%);
+            transform: translateX(0%);
             flex: 1;
         }
     }

@@ -34,7 +34,17 @@ body {
   }
 }
 
-h1, h2, h3 {
+.padding-l {
+  padding-left: 1rem;
+}
+
+@media (min-width: 64em) {
+  .padding-l {
+    padding-left: 10rem;
+  }
+}
+
+h1 {
   margin: 0;
 }
 
