@@ -1,0 +1,51 @@
+@import '../../styles/abstracts';
+
+
+
+.about {
+    background-color: $Brown;
+    margin-top: 15rem;
+    position: absolute;
+
+    &__card {
+        background-color: white;
+        border-radius: 10px;
+        margin-top: -2rem;
+        margin-bottom: -2rem;
+        box-shadow: 1px 1px 10px 1px #8080806e;
+
+        @include breakpoint-up('medium'){
+            display: flex;
+        }
+    }
+
+    &__weave-mobile {
+        width: 100%;
+        height: 10%;
+        
+        @include breakpoint-up('medium'){
+            display: none;
+        }
+    }
+
+    &__weave-desktop {
+        display: none;
+
+        @include breakpoint-up('medium'){
+            display: flex;
+            width: 20%;
+            height: 100%;
+        }
+    }
+
+    &__text {
+
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
