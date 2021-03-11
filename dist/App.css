@@ -44,6 +44,16 @@ body {
   }
 }
 
+.padding-all {
+  padding: 1rem;
+}
+
+@media (min-width: 64em) {
+  .padding-all {
+    padding: 10rem;
+  }
+}
+
 h1, h2 {
   margin: 0;
 }

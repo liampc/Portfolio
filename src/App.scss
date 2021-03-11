@@ -42,6 +42,14 @@ body {
             
         }
     }
+
+    &-all {
+        padding: 1rem;
+
+        @include breakpoint-up('large'){
+            padding: 10rem;
+        }
+    }
 }
 
 h1, h2 {
