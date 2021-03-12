@@ -9,7 +9,7 @@ import react from '../../assets/react.png'
 function Icons(){
 
     return(
-        <section className="icons">
+        <section className="icons container padding-all">
             <img className="icons__image" src={html} alt="html" />
             <img className="icons__image" src={css} alt="css" />
             <img className="icons__image" src={js} alt="js" />
