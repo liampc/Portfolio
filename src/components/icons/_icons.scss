@@ -2,7 +2,8 @@
 
 
 .icons {
-    position: absolute;
+
+    position: relative;
     min-width: 100vw;
     min-height: 40vh;
     top: 115vh;
@@ -12,6 +13,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    display: none;
 
     @include breakpoint-up('medium'){
         flex-direction: row;
