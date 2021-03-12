@@ -1,0 +1,65 @@
+@import '../../styles/abstracts';
+
+
+.works {
+
+    margin-top: 10rem;
+    
+    &__title {
+        text-align: center;
+    }
+
+
+    &__card {
+
+        display: grid;
+        
+
+        @include breakpoint-up('medium'){
+            grid-template-columns: 1fr 3fr;
+        }
+        
+    }
+
+    &__image {
+      
+        height: 15rem;
+        background-size: cover;
+        background-repeat: no-repeat;   
+        background-position: center center;
+       
+    
+        @include breakpoint-up('medium'){
+            height: 12rem;
+           
+        }
+    }
+
+    &__overlay {
+        width: 100%;
+        height: 100%;
+        background-color: $Brown;
+        opacity: 0.5;
+      
+        
+    }
+
+    h4 {
+     
+        margin: 0;
+    }
+
+    &__text {
+        align-self: flex-end;
+
+        @include breakpoint-up('medium'){
+            padding-left: 4rem;
+        }
+    }
+
+    hr {
+        border: 1px solid $Green;
+    }
+
+
+}
