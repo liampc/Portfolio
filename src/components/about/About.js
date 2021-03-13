@@ -6,7 +6,7 @@ import weaveDesktop from '../../assets/weave-desktop.png'
 
 function About(){
     return(
-        <section className="about container__pd-lr">
+        <section className="about container__pd-lr appearUpwards">
             <div  className="about__card">
                 <img className="about__weave-mobile" src={weaveMobile} alt="weave" />
                 <img className="about__weave-desktop" src={weaveDesktop} alt="weave" />

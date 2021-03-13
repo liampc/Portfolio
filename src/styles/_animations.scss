@@ -9,6 +9,10 @@
     }
 }
 
+.appearUpwards {
+    animation: appearUpwards 300ms ease-in-out;
+}
+
 
 @keyframes slideToRight {
     0% {

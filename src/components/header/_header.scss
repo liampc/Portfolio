@@ -44,7 +44,7 @@
         position: absolute;
         z-index: 1;
         top: 10%;
-        animation: 300ms ease-in-out appearUpwards;
+        // animation: 300ms ease-in-out appearUpwards;
 
         @include breakpoint-up('large'){
             top: 50%;

@@ -22,9 +22,21 @@
 
     &__icons {
         cursor: pointer;
+        
+
+        img {
+            opacity: 0.8;
+            transition: ease-in-out 300ms opacity;
+        }
+
+        img:hover {
+            opacity: 1;
+            transition: ease-in-out 300ms opacity;
+        }
 
         img:not(:last-child){
             margin-right: 1rem;
+           
         }
         
     }

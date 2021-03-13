@@ -14,7 +14,7 @@ function Header(){
                     <a href="#works">Works</a>
                     <a href="#contact">Contact</a>
                 </nav>
-                <div className="header__titles">
+                <div className="header__titles appearUpwards">
                     <h1 className="container__pd-l">Kathlia Carlos</h1>
                     <p className="container__pd-l">Frontend Developer</p>
                 </div>
