@@ -22,10 +22,18 @@
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            transition: transform 3ms ease-in-out;
 
             a {
                 color: white;
+                transition: all 300ms ease-in-out;
+                animation: 300ms ease-in-out slideToRight;
+            }
 
+            a:hover {
+                transition: transform 300ms ease-in-out;
+                transform: translateY(10%);
+                color: $Green;
             }
 
         }
@@ -36,7 +44,7 @@
         position: absolute;
         z-index: 1;
         top: 10%;
-        
+        animation: 300ms ease-in-out appearUpwards;
 
         @include breakpoint-up('large'){
             top: 50%;
