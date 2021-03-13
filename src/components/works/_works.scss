@@ -2,11 +2,40 @@
 
 
 .works {
+    // margin-top: 10rem;
 
-    margin-top: 10rem;
+    @include breakpoint-up('large'){
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url('../../assets/arrow-top-desktop.png');
+            background-repeat: no-repeat;
+            right: 0;
+            height: 30rem;
+            width: 40rem;
+            z-index: -1;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url('../../assets/arrow-bottom-desktop.png');
+            background-repeat: no-repeat;
+            left: 0;
+            background-size: 125%;
+            background-position: right center;
+            height: 32rem;
+            width: 38rem;
+            margin-top: -15rem;
+            z-index: -1
+        }
+    }  
+    
     
     &__title {
         text-align: center;
+        margin-bottom: 4rem;
     }
 
     &__container {
@@ -30,7 +59,7 @@
         }
 
 
-        
+
         &:nth-child(2){
 
             @include breakpoint-up('medium'){

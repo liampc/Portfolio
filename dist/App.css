@@ -44,6 +44,28 @@ body {
   }
 }
 
+.container__pd-tb {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 64em) {
+  .container__pd-tb {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.container__pd-t {
+  padding-top: 1rem;
+}
+
+@media (min-width: 64em) {
+  .container__pd-t {
+    padding-top: 10rem;
+  }
+}
+
 .container__pd-all {
   padding: 1rem;
 }

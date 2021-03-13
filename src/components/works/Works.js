@@ -10,7 +10,7 @@ function Works(){
     return(
         <section className="works container__pd-all">
             <h2 className="works__title">Works</h2>
-            <div className="works__container">
+            <div className="works__container container__pd-t">
                 <div className="works__card ">
                     <div className="works__image" style={{backgroundImage: `url(${work1})`}}>
                         <div className="works__overlay">

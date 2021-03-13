@@ -43,6 +43,25 @@ body {
                 
             }
         }
+
+        &-tb {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+    
+            @include breakpoint-up('large'){
+                padding-top: 10rem;
+                padding-bottom: 10rem;
+            }
+        }
+
+        &-t {
+            padding-top: 1rem;
+    
+            @include breakpoint-up('large'){
+                padding-top: 10rem;
+               
+            }
+        }
     
         &-all {
             padding: 1rem;
