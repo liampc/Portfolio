@@ -2,8 +2,7 @@
 
 
 .works {
-    // margin-top: 10rem;
-
+ 
     @include breakpoint-up('large'){
 
         &::before {
@@ -31,16 +30,11 @@
             z-index: -1
         }
     }  
-    
-    
-    &__title {
-        text-align: center;
-        margin-bottom: 4rem;
-    }
+
 
     &__container {
 
-      
+  
     }
 
 
@@ -102,14 +96,9 @@
         height: 100%;
         background-color: $Brown;
         opacity: 0.5;
-      
         
     }
 
-    h4 {
-     
-        margin: 0;
-    }
 
     &__text {
         align-self: flex-end;

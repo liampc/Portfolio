@@ -75,8 +75,12 @@ body {
 
 
 
-h1, h2 {
+h1, h2, h3, h4 {
     margin: 0;
+}
+
+.subheader {
+    margin-bottom: 2rem;
 }
 
 a, a:hover, a:visited {

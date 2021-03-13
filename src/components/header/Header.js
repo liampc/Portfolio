@@ -10,9 +10,9 @@ function Header(){
         <header className="header">
             <div>
                 <nav className="header__nav container__pd-l">
-                    <a href="#">About Me</a>
-                    <a href="#">Works</a>
-                    <a href="#">Contact</a>
+                    <a href="#about">About Me</a>
+                    <a href="#works">Works</a>
+                    <a href="#contact">Contact</a>
                 </nav>
                 <div className="header__titles">
                     <h1 className="container__pd-l">Kathlia Carlos</h1>
