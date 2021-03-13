@@ -1,0 +1,22 @@
+@import '../../styles/abstracts';
+
+
+.footer {
+    margin-top: 10rem;
+    background-color: $LightBrown;
+    text-align: center;
+    
+
+    &__quote {
+
+    }
+
+    &__icons {
+        
+
+        img:not(:last-child){
+            margin-right: 1rem;
+        }
+        
+    }
+}
