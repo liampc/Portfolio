@@ -8,8 +8,9 @@ function Footer(){
                 <h2 id="contact" className="subheader">Contact</h2>
                 <div className="footer__quote">
                     <p>"Chance encounters are what keep us going"</p>
-                    <p>Haruki Murakami</p>
+                    <p>-Kafka on the Shore, Haruki Murakami</p>
                 </div>
+                <p>kathliampcarlos@gmail.com</p>
                 <div className="footer__icons">
                     <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
                     <img src="https://img.icons8.com/fluent/48/000000/gmail--v2.png"/>

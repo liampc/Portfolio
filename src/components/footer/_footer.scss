@@ -3,16 +3,25 @@
 
 .footer {
     margin-top: 10rem;
-    background-color: $LightBrown;
+    background-color: $LightGreen;
     text-align: center;
     
 
     &__quote {
+       
+    
+        p:first-child {
+            margin-bottom: 0;
+        }
 
+        p:last-child {
+            margin:0;
+            font-style: italic;
+        }
     }
 
     &__icons {
-        
+        cursor: pointer;
 
         img:not(:last-child){
             margin-right: 1rem;
