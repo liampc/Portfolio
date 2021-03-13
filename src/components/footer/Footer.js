@@ -4,7 +4,7 @@ import './_footer.scss'
 function Footer(){
     return(
         <footer className="footer">
-            <div className="container padding-all">
+            <div className="container__pd-all">
                 <h2>Contact</h2>
                 <div className="footer__quote">
                     <p>"Chance encounters are what keep us going"</p>

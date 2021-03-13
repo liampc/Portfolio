@@ -8,9 +8,9 @@ import work1 from '../../assets/work2.png'
 
 function Works(){
     return(
-        <section className="works container">
+        <section className="works container__pd-all">
             <h2 className="works__title">Works</h2>
-            <div className="works__card padding-all">
+            <div className="works__card ">
                 <div className="works__image" style={{backgroundImage: `url(${work1})`}}>
                     <div className="works__overlay">
                         <h4>Work1</h4>

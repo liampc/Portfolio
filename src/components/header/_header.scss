@@ -4,12 +4,12 @@
 .header {
 
     background-color: $LightGreen;
-    width: 100vw;
-    height: 50vh;
+    min-width: 100vw;
+    min-height: 50vh;
     
 
     @include breakpoint-up('large'){
-        height: 80vh;
+        min-height: 80vh;
         display: flex;
     }
 

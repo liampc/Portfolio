@@ -22,35 +22,35 @@ body {
   max-width: 70rem;
 }
 
-.padding-lr {
+.container__pd-lr {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 @media (min-width: 64em) {
-  .padding-lr {
+  .container__pd-lr {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 
-.padding-l {
+.container__pd-l {
   padding-left: 1rem;
 }
 
 @media (min-width: 64em) {
-  .padding-l {
+  .container__pd-l {
     padding-left: 10rem;
   }
 }
 
-.padding-all {
+.container__pd-all {
   padding: 1rem;
 }
 
 @media (min-width: 64em) {
-  .padding-all {
-    padding: 5rem;
+  .container__pd-all {
+    padding: 10rem;
   }
 }
 
