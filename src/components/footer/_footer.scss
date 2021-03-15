@@ -5,10 +5,17 @@
     margin-top: 10rem;
     background-color: $LightGreen;
     text-align: center;
-    
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
 
     &__quote {
-       
+        
     
         p:first-child {
             margin-bottom: 0;
@@ -21,10 +28,26 @@
     }
 
     &__icons {
+        margin: 0 auto;
+        padding: 4rem 0;
+       
         cursor: pointer;
-        
+
+        > a {
+     
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: $Green;
+            }
+        }
+
 
         img {
+            
             opacity: 0.8;
             transition: ease-in-out 300ms opacity;
         }
