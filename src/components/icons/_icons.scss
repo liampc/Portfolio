@@ -20,16 +20,46 @@
   
     }
 
+    
 
     &__image {
-      
-        width: 10rem;
-        height: 10rem;
-        padding: 1rem;
-        background-color: $Green;
-        border-radius: 10px;
-        margin-bottom: 1rem;
-      
-        
+    
+        >.front, >.back {
+            display:block;
+            width: 10rem;
+            height: 10rem;
+            background-color: $Green;
+            border-radius: 10px;
+            background-size: 80%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            margin-bottom: 1rem;
+            transition: all .5s cubic-bezier(.175, .885, .32, 1.275);
+        }
+
+        >.front {
+            transform: rotateY(0deg);
+        }
+
+        >.back {
+            position: absolute;
+            margin-top: -11rem;
+            transform: rotateY(-180deg);
+            opacity: 0;
+
+        }
+
+        &:hover {
+
+            >.front {
+                transform: rotateY(180deg);
+            }
+            >.back {
+                opacity: 1;
+                transform: rotate(0deg)
+            }
+
+        }
+
     }
 }

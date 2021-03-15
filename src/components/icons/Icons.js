@@ -10,10 +10,26 @@ function Icons(){
 
     return(
         <section className="icons container__pd-all">
-            <img className="icons__image" src={html} alt="html" />
-            <img className="icons__image" src={css} alt="css" />
-            <img className="icons__image" src={js} alt="js" />
-            <img className="icons__image" src={react} alt="react" />
+            <div className="icons__image">
+                <div className="front icons__card" style={{backgroundImage: `url(${html})`}}></div>
+                <div className="back icons__card">HTML</div>
+            </div>
+
+            <div className="icons__image">
+                <div className="front icons__card" style={{backgroundImage: `url(${css})`}}></div>
+                <div className="back icons__card">CSS</div>
+            </div>
+
+            <div className="icons__image">
+            <div className="front icons__card" style={{backgroundImage: `url(${js})`}}></div>
+                <div className="back icons__card">JavaScript</div>
+            </div>
+
+            <div className="icons__image">
+                <div className="front icons__card" style={{backgroundImage: `url(${react})`}}></div>
+                <div className="back icons__card">React</div>
+            </div>
+
         </section>
     )
 }
