@@ -9,7 +9,7 @@ import react from '../../assets/react.png'
 function Icons(){
 
     return(
-        <section className="icons container__pd-all">
+        <section className="icons container">
             <div className="icons__image">
                 <div className="front icons__card" style={{backgroundImage: `url(${html})`}}></div>
                 <div className="back icons__card">HTML</div>
